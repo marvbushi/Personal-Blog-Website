@@ -1,0 +1,33 @@
+/* small tablet style */
+@media screen and (min-width: 620px) {
+    #header-text {
+        grid-column: 1/5;
+    }
+    
+    .header-img {
+        grid-column: 5/9;
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .posts {
+        margin-top: 40px;
+    }
+
+    #posts a {
+        grid-column: span 4;
+        display: block;
+        margin: 20px 0;
+    }
+
+    #posts a * {
+        max-width: 60%;
+        margin: 10px 20%;
+    }
+
+    #posts h4 {
+        text-align: center;
+    }
+}
